@@ -46,7 +46,7 @@ https://www.kaggle.com/uciml/sms-spam-collection-dataset/version/1
 
 3.	What is the F1 Scoring formula and in what circumstances is it better then the accuracy formula
 
-(1)F1 Score = 2*TP/ (All Predicted Positive + All Observation Positive). 
+(1) F1 Score = 2*TP/ (All Predicted Positive + All Observation Positive). 
 This is because:
 F1 Score = 2*(Recall * Precision) / (Recall + Precision)
 Precision = TP/(TP+FP) = TP/All Predicted Positive
@@ -61,8 +61,8 @@ and 747 spam messages. Even we do not build a model and just simply say all the 
 we still get about 87% accuracy, but we missed out all the spam messages.  For this imbalanced dataset, 
 the accuracy of my model is about 98%, but the F1 score is 92%.  
 
-5.	What is the F1 Score of your model?
-- F1 Score on spam detection is about 92%.  
+4.	What is the F1 Score of your model?
+	- F1 Score on spam detection is about 92%.  
 
 
 •	TP: Observation is positive, and is predicted to be positive
